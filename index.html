@@ -3,42 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Betta HUD OS</title>
+    <title>Privacy Policy - Betta Cam</title>
     <style>
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
             line-height: 1.6; 
             max-width: 800px; 
             margin: 0 auto; 
             padding: 40px 20px; 
-            color: #334155; 
-            background-color: #f8fafc;
+            color: #E0E0E0; 
+            background-color: #02050A; /* Matches your app's dark theme */
         }
-        h1 { color: #0f172a; }
-        h2 { color: #1e293b; margin-top: 30px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+        h1, h2 { color: #00A8E8; /* Glowing Cyan */ }
         p { margin-bottom: 15px; }
-        .container { background: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .container { 
+            background-color: #0A1118; 
+            padding: 30px; 
+            border-radius: 12px; 
+            border: 1px solid rgba(0, 168, 232, 0.2);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5); 
+        }
+        a { color: #00A8E8; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Privacy Policy for Betta Cam</h1>
-        <p><strong>Last Updated: March 5, 2026</strong></p>
+        <p><strong>Last Updated:</strong> April 2026</p>
 
         <h2>1. Introduction</h2>
-        <p>This privacy policy applies to the Betta Cam mobile application. This app was created for educational and scientific identification purposes.</p>
+        <p>Welcome to Betta Cam. This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application, developed by Vanessa Abaya.</p>
 
-        <h2>2. Camera Usage</h2>
-        <p>The app requires access to your device's camera to analyze images of Betta fish in real-time. All image processing (AI neural network analysis) is executed entirely locally on your device. We do not record, collect, store, or transmit your live camera feed or photos to any external servers.</p>
+        <h2>2. Information We Collect</h2>
+        <p><strong>Account Information:</strong> To create an account and save your tracking data, we collect your email address and a secure password.</p>
+        <p><strong>Camera Access:</strong> The application requires access to your device's camera (<code>android.permission.CAMERA</code>). This is strictly necessary for the core functionality of scanning and identifying different types of Betta fish using our on-device AI model.</p>
 
-        <h2>3. Local Storage</h2>
-        <p>The app uses your device's local storage to save your scan history (images, names, and confidence scores) to display in the Dashboard. This data remains strictly on your personal device and is never uploaded, harvested, or shared by us.</p>
+        <h2>3. How We Use Your Information</h2>
+        <p><strong>Authentication & Data Sync:</strong> We use Supabase, a secure backend service provider, to handle your authentication. Your email is used strictly for account creation, secure login, and syncing your personal aquarium data across devices.</p>
+        <p><strong>Image Processing:</strong> The camera feed is processed locally on your device to identify fish types. We do not upload, share, or store your live camera feed or photos on external servers without your explicit action.</p>
 
-        <h2>4. Third-Party Services (Advertisements)</h2>
-        <p>This app uses Google AdMob to display advertisements to support development. Google AdMob may collect and use certain data (such as your device's advertising ID and general location) to provide personalized ads. You can learn more about how Google uses information from sites or apps that use their services by visiting Google's official Privacy & Terms site.</p>
+        <h2>4. Data Security</h2>
+        <p>Your email and account data are securely stored in our Supabase instance in accordance with industry-standard security and encryption protocols. We do not sell or rent your personal information to third parties.</p>
 
-        <h2>5. Contact Us</h2>
-        <p>If you have any questions or concerns about this Privacy Policy, you can contact the developer at: <strong>curverich1@gmail.com</strong></p>
+        <h2>5. Changes to This Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <strong>[INSERT YOUR EMAIL HERE]</strong>.</p>
     </div>
 </body>
 </html>
